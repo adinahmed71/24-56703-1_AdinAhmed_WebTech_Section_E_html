@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Form</title>
+		<link rel="stylesheet" href="Style2.CSS">
+	</head>
+ <body>
+ <h1>Registration form</h1>
+    <form>
+	    <div>
+		    <label for="fullname">Fullname:</label>
+			<input type="text" name="fullname" id="fullname" required>
+		</div><br>
+		<div>
+		    <label for="email">Email</label>
+			<input type="text" name="email" id="email">
+		</div><br>
+		<div>
+		    <label for="password">Password</label>
+			<input type="password" name="password" id="password">
+		</div></br>
+		<div>
+		    <label for="dob">Date of Birth</label>
+			<input type="Date" name="dob" id="dob">
+		</div></br>
+		<div>
+		    <label for="image">Choose your Photo:</label>
+			<input type="file" name="photo" id="photo">
+		</div></br>
+		<div>
+		    <label for="gender">Gender</label>
+			<input type="radio" name="gender" id="gender" value="male">male
+			<input type="radio" name="gender" id="gender" value="female">female
+		</div></br>
+		<div>
+		    <label for="religion">Religion</label>
+			<input type="checkbox" name="r1" id="r1" value="Islam">Islam
+			<input type="checkbox" name="r2" id="r2" value="Hindu"checked>Hindu
+		</div></br>
+		<div>
+		    <label for="department">Department</label>
+			<select name="department">
+			<option value="CSE"selected>CSE</option>
+			<option value="EEE">EEE</option>
+			</select>
+		</div></br>
+		<div>
+		    <label for="Address">Write down the address:</label>
+			<textarea rows="10"></textarea>
+		</div></br>
+		<div>
+		    <input type="submit" value="Register">
+			<input type="reset" value="clear">
+		</div>
+	</form>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920" integrity="sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==" data-cf-beacon='{"version":"2024.11.0","token":"f0f11218b2e847cd95b6120aa06da09b","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
