@@ -1,0 +1,24 @@
+body{
+	font-family:Arial;
+	background-color:fof8ff;
+	margin:20px;
+}
+h1{
+	text-align:center;
+	text-decoration:underline;
+	color:navy;
+}
+label{
+	font-weight:bold;
+	color:333;
+input{
+	padding:5px;
+}
+button{
+	padding:8px 15px;
+}
+#output{
+	margin-top:20px;
+	background-color:white;
+	border:2px solid black;
+}
